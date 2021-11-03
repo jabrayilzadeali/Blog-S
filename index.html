@@ -4,25 +4,40 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
 	<title>Blog | landing page</title>
 </head>
 <body>
-	hello
-	<h1>okay</h1>
-	<header>
-		<nav>
-			<ul>
-				<li>Home</li>
-				<li>About Us</li>
-				<li>Projects</li>
-				<li>Blogs</li>
-				<li>Contact</li>
-				<li>Login</li>
-				<li>Logout</li>
-			</ul>
-		</nav>
+
+	<header class="header">
+		<div class="container flex">
+			<h1><a href="#">UltraBlog</a></h1>
+			<button class="hamburger-menu-icon">V</button>
+			<nav class="navbar">
+				<ul class="navbar-links">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="blogs.html">Blogs</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="signUp.html">Sign Up</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+
+		</div>
+		<ul class="hamburger-menu-links">
+			<li class="hamburger-menu-link"><a href="home.html">Home</a></li>
+			<li class="hamburger-menu-link"><a href="about.html">About Us</a></li>
+			<li class="hamburger-menu-link"><a href="blogs.html">Blogs</a></li>
+			<li class="hamburger-menu-link"><a href="contact.html">Contact Us</a></li>
+			<li class="hamburger-menu-link"><a href="signup.html">Sign Up</a></li>
+			<li class="hamburger-menu-link"><a href="login.html">Login</a></li>
+		</ul>
 	</header>
-	<section id="blogs"></section>
+	<div class="container">
+		<section id="blogs"></section>
+	</div>
+
 	<script src="js/main.js"></script>
 </body>
 </html>
